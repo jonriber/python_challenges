@@ -10,6 +10,7 @@ def sort_a_string(object):
         return result
     else:
         print('nao é string')
+        return None
         
 
 if __name__ == '__main__':
