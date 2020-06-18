@@ -16,8 +16,8 @@ def count_words(path):
             print(word[0],'\t',word[1])
 
 if __name__== '__main__':
-    path1 = r"C:\Users\jonat\Documents\PROGRAMAÇÃO\Python\Challenges\python_challenges\python_challenges\cout_unique_words\100-0.txt"
-    path2 = r"C:\Users\jonat\Documents\PROGRAMAÇÃO\Python\Challenges\python_challenges\python_challenges\cout_unique_words\first_text.txt"
+    path1 = r"100-0.txt"
+    path2 = r"first_text.txt"
     print('Iniciando programa de contagem de palavras.')
     count_words(path1)
     count_words(path2)
